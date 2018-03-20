@@ -1,0 +1,12 @@
+安装完毕后
+1、配置git账户   git config --global user.name ''
+2、配置提交邮箱  git config --global user.email ''
+3、查看配置的账户 git config user.name
+4、查看配置的邮箱 git config user.email
+5、初始化仓库
+    1->切换到项目目录下
+    2->git init
+6、添加文件到仓库
+    1->git add 文件名
+7、查看仓库下文件是否可提交 git status
+8、查看文件更改 git log
