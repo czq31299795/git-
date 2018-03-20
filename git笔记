@@ -10,7 +10,7 @@
     1->git add 文件名
 7、查看仓库下文件是否可提交 git status   加-s查看所有文件状态
 8、提交至仓库 git commit -m '说明备注'
-    --commit --amend --no--edit
+    --commit --amend --no-edit
 9、查看文件更改 git log
     加参数 --oneline
 10、查看修改了的内容 git diff   加--cached查看已经是可提交状态的不同  加HEADC查看所有状态下的不同
