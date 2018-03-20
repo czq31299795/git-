@@ -15,3 +15,5 @@
     加参数 --oneline
 10、查看修改了的内容 git diff   加--cached查看已经是可提交状态的不同  加HEADC查看所有状态下的不同
 
+11、回到过去版本 git reset --hard <id或HEAD[^][~1]>
+12、查看所有变化记录 git reflog
