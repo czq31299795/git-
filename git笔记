@@ -9,4 +9,6 @@
 6、添加文件到仓库
     1->git add 文件名
 7、查看仓库下文件是否可提交 git status
+8、提交至仓库 git commit -m '说明备注'
 8、查看文件更改 git log
+
