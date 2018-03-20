@@ -11,6 +11,7 @@
 7、查看仓库下文件是否可提交 git status   加-s查看所有文件状态
 8、提交至仓库 git commit -m '说明备注'
     --commit --amend --no-edit
+    commit -am '说明' (add+commit)
 9、查看文件更改 git log
     加参数 --oneline
 10、查看修改了的内容 git diff   加--cached查看已经是可提交状态的不同  加HEADC查看所有状态下的不同
@@ -22,3 +23,8 @@
     查看  git branch
     删除  git branch -d <name>
     切换  git checkout <name>
+    推到其他分支 1在要推入的分支内  git merge --no-ff -m 'msg' <分支name>
+15、merge分支冲突
+    报错CONFILT 需要人工合并
+16、rebase
+    
